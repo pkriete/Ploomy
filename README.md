@@ -15,7 +15,7 @@ filter will return false iff any of the buckets are not 1.
 
 [More info ...](http://en.wikipedia.org/wiki/Bloom_filter)
 
-# Usage
+## Usage
 
 Any hash function has collisions, so correctly sizing your bloom filter is
 important to get the best possible performance from it. You must specify
