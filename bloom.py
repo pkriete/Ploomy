@@ -27,12 +27,3 @@ class Bloom(object):
     
     def __contains__(self, value):
         return self.has(value)
-
-
-if __name__ == '__main__':
-    b = Bloom(500000, 5)
-    b.add('pascal')
-    b.add('pony')
-    
-    print 'pony' in b
-    print 'foo' in b
